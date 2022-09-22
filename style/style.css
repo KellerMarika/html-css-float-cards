@@ -36,7 +36,7 @@ text-transform: capitalize;
 
 /* MAIN  */
 main .main_container{
-    width: 65%;
+    width: 60%;
     margin: auto;
 }
 
@@ -48,8 +48,14 @@ main .paragraph_conainer{
 /* CARDS */
 
 .card_container{
+    
     background-color:rgb(15, 14, 23);
-    width: calc((100%/3) - (4rem/3));  
+    width: calc((100% - 4rem)/3);
+    
+ /* calc by :simone taccori 
+ (100% della width del padre  - 20px ("margin left" *2 che sono gli spazi che voglio lasciare fra le 3 card)) /3 le tre card */
+
+
     margin-bottom: 3rem;       
 }
 
@@ -71,9 +77,15 @@ img,
     text-align: left;
     display: inline-block;
 }
+.card_info_container h2{
+    text-transform: uppercase;
+}
+.card_info_container div{
+    text-transform: capitalize;
+}
 
 .card_info_container a{
-    color:rgb(0, 146, 230);
+    color:rgb(87, 185, 241);
     text-decoration: none;
 }
 
