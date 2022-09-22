@@ -15,16 +15,14 @@ padding: 0;
     float: left;
 }
 
-
-
 body{
-    text-align: center;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* HEADER */
 
 header h1{
+text-align: center;
 color: #E53170;
 font-size:2.3rem;
 font-weight: 900;
@@ -43,6 +41,7 @@ main .main_container{
 }
 
 main .paragraph_conainer{
+    text-align: center;
     padding-bottom: 1.5rem;
 }
 
@@ -62,6 +61,11 @@ main .paragraph_conainer{
     height: 100px;    
 }
 
+img,
+.card_info_container{
+    vertical-align: middle;
+
+}
 .card_info_container{
     color: whitesmoke;
     text-align: left;
