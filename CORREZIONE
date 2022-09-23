@@ -1,0 +1,21 @@
+1) ATTRIBUIRE UNA DIMENSIONE RESPONSIVE:
+ invece di dare una misura fissa a img, avrei potuto dire:
+ img { width:30% (del container)}
+ .card_info_container {width:60% (del container)}
+ 
+ la struttura di riferimento:
+ 
+ <div class="card_container float_left">
+
+                    <!-- immagine -->  
+                    <img src="img/male1.png" alt="">      
+
+                    <!-- info della card -->
+                    <div class="card_info_container">
+                        <h2>marco bianchi</h2>
+                        <div>designer</div>
+                        <div><a href="mailto:">marcobianchi@team.com</a></div>
+                    </div>
+                </div>
+--------------------------------------------------------------------------------------------
+2)meglio larghezza statica 920px per il main container
